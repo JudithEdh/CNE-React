@@ -28,3 +28,9 @@ You will also see any lint errors in the console.
     - How they work 
     - The structure
     - React is known for reusable components, splitting logic and components prevents repeating yourself.
+### 4. Styling Components
+    - Explaining the difference between Inline, Embedded and External & Hierarchy
+    - Understanding the difference when placing the `style` attribute in JSX (inline)
+### 5. JS to JSX
+    - Explaining how we can import JS information stored in a variable into our JSX code
+    - Jumping between JSX and JS in the `return()` method 
