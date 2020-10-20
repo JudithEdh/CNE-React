@@ -34,3 +34,7 @@ You will also see any lint errors in the console.
 ### 5. JS to JSX
     - Explaining how we can import JS information stored in a variable into our JSX code
     - Jumping between JSX and JS in the `return()` method 
+### 6. Props
+    - Explaining what props are and how we use it 
+    - We can allow props to modify the way components behave
+    - Demonstrating how we can either pass an object as a prop or just name=value pairs
