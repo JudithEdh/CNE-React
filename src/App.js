@@ -1,13 +1,16 @@
 import React from 'react';
-import "../src/components/Styling/style.css"
-import WorkingWithData from './components/JSTOJSX/WorkingwithJS';
-import Explain from './components/Props/explanation';
-import Puppies from './components/Props/Puppies';
+import "../src/components/Styling/style.css";
+import Counter from './components/ChangeState/Counter';
+import Basic from './components/handlingevents/Basic';
+import State from './components/State/State';
+
 
 function App() {
   return (
     <div> 
-      <Puppies/>
+      {/* <State/> */}
+      {/* <Basic/> */}
+      <Counter/>
     </div>
   );
 }
