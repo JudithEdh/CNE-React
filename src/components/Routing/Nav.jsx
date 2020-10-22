@@ -1,11 +1,14 @@
 import React from 'react';
+import {Link, BrowserRouter as Router} from 'react-router-dom';
 
 function Nav(){
     return(
         <>
-            <a href="http://www.google.com">Home</a><br/>
-            <a href="/about">About</a> <br/>
-            <a href="/shop">Shop Now</a>
+        <Router>
+            <Link to="/">Home</Link>
+            <Link to="/about">About Us</Link>
+            <Link to="/shop">Shop Now</Link>
+        </Router>
         </>
     );
 }
