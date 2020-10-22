@@ -38,3 +38,17 @@ You will also see any lint errors in the console.
     - Explaining what props are and how we use it 
     - We can allow props to modify the way components behave
     - Demonstrating how we can either pass an object as a prop or just name=value pairs
+### 7. State
+    - State is the data that a component maintains
+    - Pass state information to children through props
+### 8. Handling Events
+    - Event handling allows the user to interact with the webpage, like click or hover. 
+    - Explain difference between HTML onclick and React onClick
+### 9. Changing State
+    - How to change state of a value using setState()
+### 10. LifeCycle Methods 
+    - Differences/Similarities between classbased and function based
+### 11. Data Requets
+    - Fetch 
+    - Axios
+    - Setting state with the result from a axios request then using it in the application
