@@ -1,14 +1,14 @@
 import React from 'react';
 import { Route, BrowserRouter as Router, Switch} from 'react-router-dom';
 import "../src/components/Styling/style.css";
-import EmployeeInfo from './components/Fetch/EmployeeInfo';
-import Fetch from './components/Fetch/Fetch';
+import Login from './components/ConditionalRendering/Example';
+import UserProfile from './components/StaticData/User';
 
 function App() {
   return (
     <div> 
-     {/* <Fetch/> */}
-     <EmployeeInfo/>
+     {/* <Login isLoggedIn={true}/> */}
+     <UserProfile/>
     </div>
   );
 }
